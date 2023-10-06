@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" Type Checking  """
+""" Type Checking using mypy  """
 from typing import Tuple, List
 
 
