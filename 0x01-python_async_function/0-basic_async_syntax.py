@@ -6,7 +6,6 @@ named (wait_random) that awaits a delay between 0 and 10(max delay)
 wait random value includes float values
 """
 import asyncio
-import time
 from numpy import random
 
 
