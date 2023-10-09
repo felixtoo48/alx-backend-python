@@ -9,7 +9,7 @@ import asyncio
 from numpy import random
 
 
-async def wait_random(max_delay: int=10) -> float:
+async def wait_random(max_delay: int = 10) -> float:
     """
     Generate a random delay between 0 and max_delay seconds (inclusive).
     """
@@ -19,5 +19,4 @@ async def wait_random(max_delay: int=10) -> float:
     wait for random delay
     """
     await asyncio.sleep(random_delay)
-
     return random_delay
