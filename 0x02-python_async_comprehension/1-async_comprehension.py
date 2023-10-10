@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" collect 10 random Nos using async comprehensing and return the Nos"""
+"""A coroutine called async_generator that takes no arguments"""
 import asyncio
 import random
 from typing import List
